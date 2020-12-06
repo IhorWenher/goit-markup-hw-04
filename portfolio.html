@@ -25,8 +25,22 @@
         
                 <!--Почта и телефон-->
                 <ul class="communication">
-                    <li class="item"><a href="mailto:info@devstudio" class="mail-phone">info@devstudio</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="mail-phone">+38 096 111 11 11</a></li>
+                    <li class="item">
+                        <a href="mailto:info@devstudio" class="mail-phone">
+                            <svg class="envelope-icon">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="tel:+380961111111" class="mail-phone">
+                            <svg class="phone-icon">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -136,14 +150,49 @@
         <!--Футер-->
         <footer class="page-footer portfolio">
             <div class="footer-container">
-                <a href="index.html" class="footer-logo"><span class="logo-beginning">Web</span>Studio</a>
-                <address class="contact">
-                    г. Киев, пр-т Леси Украинки, 26
-                    <ul class="contacts-list">
-                        <li class="item"><a href="mailto:info@devstudio" class="mail-phone">info@devstudio</a></li>
-                        <li class="item"><a href="tel:+380961111111" class="mail-phone">+38 096 111 11 11</a></li>
+                <div class="adress-container">
+                    <a href="index.html" class="footer-logo"><span class="logo-beginning">Web</span>Studio</a>
+                    <address class="contact">
+                        г. Киев, пр-т Леси Украинки, 26
+                        <ul class="contacts-list">
+                            <li class="item"><a href="mailto:info@devstudio" class="mail-phone">info@devstudio</a></li>
+                            <li class="item"><a href="tel:+380961111111" class="mail-phone">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="link-container">
+                    <b class="invite">Присоединяйтесь</b>
+                    <ul class="border-links">
+                        <li class="link-item footer">
+                            <a href="#" class="social-link">
+                                <svg class="instagram pin">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="link-item footer">
+                            <a href="#" class="social-link">
+                                <svg class="twitter pin">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="link-item footer">
+                            <a href="#" class="social-link">
+                                <svg class="facebook pin">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="link-item footer">
+                            <a href="#" class="social-link">
+                                <svg class="linkedin pin">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </address>
+                </div>
             </div>
         </footer>
     </body>
