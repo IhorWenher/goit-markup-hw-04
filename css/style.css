@@ -482,18 +482,6 @@ img {
   padding: 0;
 }
 
-.clients-area {
-  width: 170px;
-  height: 90px;
-
-  border: 1px solid var(--border-clients-color);
-  border-radius: 4px;
-
-  background-color: var(--primary-bg-color);
-
-  text-align: center;
-}
-
 .clients-link {
   display: flex;
   justify-content: center;
